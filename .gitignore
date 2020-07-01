@@ -1,0 +1,17 @@
+/no_seg/log/3_20_50ep_udac_no_seg/*.h5
+*.h5
+*.jpg
+*.png
+/test_img
+test_img_seg
+.log
+*.log
+*.log
+CONV_angle.jpg
+comma_label_ds.txt
+*.jpg
+*.png
+*.png
+*.png
+*.jpg
+*.jpg

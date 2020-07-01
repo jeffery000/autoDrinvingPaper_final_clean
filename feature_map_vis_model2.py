@@ -1,0 +1,106 @@
+#%%
+from keras.models import Model
+import cv2
+import matplotlib.pyplot as plt
+from keras.models import Sequential
+from keras.layers.convolutional import Convolution2D, MaxPooling2D
+from keras.layers import Activation
+from pylab import *
+import keras
+from keras.models import load_model
+from keras.applications import VGG16
+from keras.applications import ResNet50V2
+
+#%%
+def get_row_col(num_pic):
+    squr = num_pic ** 0.5
+    row = round(squr)
+    col = row + 1 if squr - row > 0 else row
+    return row, col
+ 
+ 
+def visualize_feature_map(img_batch):
+    feature_map = np.squeeze(img_batch, axis=0)
+    print(feature_map.shape)
+ 
+    feature_map_combination = []
+
+ 
+    num_pic = feature_map.shape[2]
+    row, col = get_row_col(num_pic)
+    plt.figure(0,figsize=(4*row,4*col))
+    for i in range(0, num_pic):
+        feature_map_split = feature_map[:, :, i]
+        feature_map_combination.append(feature_map_split)
+        plt.subplot(row, col, i + 1)
+        plt.imshow(feature_map_split)
+        axis('off')
+    #     title('feature_map_{}'.format(i))
+ 
+    plt.savefig('feature_map.png')
+    # plt.show()
+ 
+    # 各个特征图按1：1 叠加
+    plt.figure(1)
+    feature_map_sum = sum(ele for ele in feature_map_combination)
+    plt.imshow(feature_map_sum)
+    axis('off')
+    plt.savefig("feature_map_sum.png")
+ 
+#%%my_model
+#model = load_model("vgg16_angle15.h5")
+#x = model.get_layer('block5_conv3').output
+#model = Model(input=model.input, output=x)
+#%%original vgg16
+rows = 80
+cols = 120
+channels = 1
+#model = VGG16(include_top=False,input_shape=(rows,cols,channels))
+model = load_model(r"log\11_24_keras\KivlNet_part2_16.h5")
+x = model.get_layer('conv2d_3').output
+#x = model.get_layer('block3_conv3').output
+# x = model.get_layer('lambda_6').output
+model = Model(input=model.input, output=x)
+#model.save("vgg_featur.h5")
+#%%resnet50_v2
+rows = 320
+cols = 480
+channels = 3
+model = ResNet50V2(include_top=False,input_shape=(rows,cols,channels))
+x = model.get_layer('conv3_block1_2_conv').output
+# x = model.get_layer('block3_conv3').output
+# x = model.get_layer('lambda_6').output
+model = Model(input=model.input, output=x)
+# model.save("resnet50_v2.h5")
+#%%
+# img = cv2.imread(r'D:\dataset\yushikeji\test\0.tiff')
+# #img = cv2.resize(img,(320,180))
+# img_batch = np.expand_dims(img, axis=0)
+# conv_img = model.predict(img_batch)  # conv_img 卷积结果
+# conv_img_sum = np.sum(conv_img,axis=3)
+# conv_img_sum = np.squeeze(conv_img_sum,axis=0)
+# conv_img_sum = 1/(conv_img_sum/conv_img_sum.max())
+# ret,conv_img_sum=cv2.threshold(np.expand_dims(conv_img_sum,axis=2),5,1,cv2.THRESH_BINARY)
+# conv_img_sum[:40,:] = 0
+#%%
+img = cv2.imread(r'C:\Users\SHJ\Desktop\sim\2019.11.24_merge\img_seg_keras\1.png')[:,:,0]/255
+img = cv2.resize(img,(cols,rows))
+img_batch = np.expand_dims(img, axis=0)
+img_batch = np.expand_dims(img_batch, axis=3)
+conv_img = model.predict(img_batch)  # conv_img 卷积结果
+conv_img_sum = conv_img[0,:,:,:]
+#conv_img_sum = np.squeeze(conv_img_sum,axis=0)
+#conv_img_sum = 1/(conv_img_sum/conv_img_sum.max())
+#ret,conv_img_sum=cv2.threshold(np.expand_dims(conv_img_sum,axis=2),8,1,cv2.THRESH_BINARY)
+#conv_img_sum[:45,:] = 0
+# cv2.imwrite("1573518191670290_0000005753.jpg",conv_img_sum*255)
+#conv_img_sum[conv_img_sum>12] =100
+#%%
+plt.imshow(conv_img_sum)#='Greys')
+plt.show()
+#%%
+visualize_feature_map(conv_img)
+
+
+
+# %%

@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="15375dcf-d4f6-4891-9f11-8acb8937f903" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.ipynb_checkpoints/paper_plot-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../.ipynb_checkpoints/paper_plot-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CONV_angle.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../CONV_angle.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CONV_speed.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../CONV_speed.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseline_nvidia_11_14_comma_inception3_test_half.py" beforeDir="false" afterPath="$PROJECT_DIR$/../baseline_nvidia_11_14_comma_inception3_test_half.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseline_nvidia_11_14_comma_nvNet_test_half.py" beforeDir="false" afterPath="$PROJECT_DIR$/../baseline_nvidia_11_14_comma_nvNet_test_half.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseline_nvidia_11_14_comma_vgg_kivi_3c_test_half.py" beforeDir="false" afterPath="$PROJECT_DIR$/../baseline_nvidia_11_14_comma_vgg_kivi_3c_test_half.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseline_nvidia_11_14_comma_vgg_transfer_test_half.py" beforeDir="false" afterPath="$PROJECT_DIR$/../baseline_nvidia_11_14_comma_vgg_transfer_test_half.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseline_nvidia_11_14_udacity_incpetion3_test_half.py" beforeDir="false" afterPath="$PROJECT_DIR$/../baseline_nvidia_11_14_udacity_incpetion3_test_half.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseline_nvidia_11_14_udacity_nvNet_test_half.py" beforeDir="false" afterPath="$PROJECT_DIR$/../baseline_nvidia_11_14_udacity_nvNet_test_half.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseline_nvidia_11_14_udacity_vgg_kivi_3c_test_half.py" beforeDir="false" afterPath="$PROJECT_DIR$/../baseline_nvidia_11_14_udacity_vgg_kivi_3c_test_half.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseline_nvidia_11_14_udacity_vgg_transfer_test_half.py" beforeDir="false" afterPath="$PROJECT_DIR$/../baseline_nvidia_11_14_udacity_vgg_transfer_test_half.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseline_nvidia_prediction_comma_inception3_test_half.py" beforeDir="false" afterPath="$PROJECT_DIR$/../baseline_nvidia_prediction_comma_inception3_test_half.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseline_nvidia_prediction_comma_nvNet_test_half.py" beforeDir="false" afterPath="$PROJECT_DIR$/../baseline_nvidia_prediction_comma_nvNet_test_half.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseline_nvidia_prediction_comma_vgg_kivi_3c_kivinet_test_half.py" beforeDir="false" afterPath="$PROJECT_DIR$/../baseline_nvidia_prediction_comma_vgg_kivi_3c_kivinet_test_half.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseline_nvidia_prediction_comma_vgg_transfer_test_half.py" beforeDir="false" afterPath="$PROJECT_DIR$/../baseline_nvidia_prediction_comma_vgg_transfer_test_half.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseline_nvidia_prediction_udacity_incetion3_test_half.py" beforeDir="false" afterPath="$PROJECT_DIR$/../baseline_nvidia_prediction_udacity_incetion3_test_half.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseline_nvidia_prediction_udacity_nvNet_test_half.py" beforeDir="false" afterPath="$PROJECT_DIR$/../baseline_nvidia_prediction_udacity_nvNet_test_half.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseline_nvidia_prediction_udacity_vgg_kivi_3c_kivinet_test_half.py" beforeDir="false" afterPath="$PROJECT_DIR$/../baseline_nvidia_prediction_udacity_vgg_kivi_3c_kivinet_test_half.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baseline_nvidia_prediction_udacity_vgg_transfer_test_half.py" beforeDir="false" afterPath="$PROJECT_DIR$/../baseline_nvidia_prediction_udacity_vgg_transfer_test_half.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../comma2k2uisee.py" beforeDir="false" afterPath="$PROJECT_DIR$/../comma2k2uisee.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../down_sample_imgs.py" beforeDir="false" afterPath="$PROJECT_DIR$/../down_sample_imgs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../feature_map.png" beforeDir="false" afterPath="$PROJECT_DIR$/../feature_map.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../feature_map_sum.png" beforeDir="false" afterPath="$PROJECT_DIR$/../feature_map_sum.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../feature_map_vis.py" beforeDir="false" afterPath="$PROJECT_DIR$/../feature_map_vis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../merge_data_dir.py" beforeDir="false" afterPath="$PROJECT_DIR$/../merge_data_dir.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LSTM_angle.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LSTM_angle.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LSTM_speed.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/LSTM_speed.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compare_lstm_conv_comma.py" beforeDir="false" afterPath="$PROJECT_DIR$/compare_lstm_conv_comma.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compare_lstm_conv_udacity.py" beforeDir="false" afterPath="$PROJECT_DIR$/compare_lstm_conv_udacity.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run_lstm_conv_comma.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_lstm_conv_comma.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run_lstm_conv_udacity.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_lstm_conv_udacity.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../paper_plot.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../paper_plot.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plt_data_campare_comma.py" beforeDir="false" afterPath="$PROJECT_DIR$/../plt_data_campare_comma.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plt_data_campare_udacity.py" beforeDir="false" afterPath="$PROJECT_DIR$/../plt_data_campare_udacity.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plt_loss_curve.py" beforeDir="false" afterPath="$PROJECT_DIR$/../plt_loss_curve.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plt_netron_img.py" beforeDir="false" afterPath="$PROJECT_DIR$/../plt_netron_img.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../road_segment_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../road_segment_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../road_segment_train.py" beforeDir="false" afterPath="$PROJECT_DIR$/../road_segment_train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vgg_feature_map_save_comma.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../vgg_feature_map_save_udacity.py" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/run_comma.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="532">
+              <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/run_carla.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="94" column="64" lean-forward="true" selection-start-line="94" selection-start-column="63" selection-end-line="94" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/run_lstm_conv_udacity.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1254">
+              <caret line="77" column="42" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/run_lstm_conv_comma_inception_transfer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="24" column="46" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/compare_lstm_comma_5_30.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/compare_lstm_conv_comma.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="950">
+              <caret line="55" column="36" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/comma_run_lstm_predict_5_30.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="20" column="45" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/comma_run_lstm_predict_seg_pw.log">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/run_lstm_conv_udacity_nvnet.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/run_lstm_conv_comma_seg_fla_pw.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1881">
+              <caret line="110" column="43" selection-start-line="110" selection-start-column="43" selection-end-line="110" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>extract_one_batch</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/run_lstm_conv_udacity.py" />
+        <option value="$PROJECT_DIR$/run_lstm_conv_comma_nvnet.py" />
+        <option value="$PROJECT_DIR$/run_lstm_conv_comma_vgg_transfer.py" />
+        <option value="$PROJECT_DIR$/run_lstm_conv_comma_inception_transfer.py" />
+        <option value="$PROJECT_DIR$/run_lstm_conv_udacity_seg_fla.py" />
+        <option value="$PROJECT_DIR$/run_lstm_conv_udacity_nvnet.py" />
+        <option value="$PROJECT_DIR$/run_lstm_conv_udacity_vgg_transfer.py" />
+        <option value="$PROJECT_DIR$/run_lstm_conv_udacity_inception_transfer.py" />
+        <option value="$PROJECT_DIR$/run_lstm_conv_comma.py" />
+        <option value="$PROJECT_DIR$/comma_run_lstm_predict.py" />
+        <option value="$PROJECT_DIR$/udacity_run_lstm_predict_5_30.py" />
+        <option value="$PROJECT_DIR$/run_lstm_conv_comma_seg_fla_pw.py" />
+        <option value="$PROJECT_DIR$/comma_run_lstm_predict_5_30.py" />
+        <option value="$PROJECT_DIR$/compare_lstm_conv_comma.py" />
+        <option value="$PROJECT_DIR$/compare_lstm_comma_5_30.py" />
+        <option value="$PROJECT_DIR$/compare_lstm_conv_udacity.py" />
+        <option value="$PROJECT_DIR$/compare_lstm_udacity_5_30.py" />
+        <option value="$PROJECT_DIR$/run_carla.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/no_picture_esti.iml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="width" value="1300" />
+    <option name="height" value="1400" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="no_picture_esti" type="b2602c69:ProjectViewProjectNode" />
+              <item name="no_picture_esti" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\github_project\Autopilot-Uisee-keras_udacity_clean\no_picture_esti" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.run_carla">
+    <configuration name="compare_lstm_comma_5_30" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="no_picture_esti" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/compare_lstm_comma_5_30.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="compare_lstm_conv_comma" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="no_picture_esti" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/compare_lstm_conv_comma.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="compare_lstm_conv_udacity" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="no_picture_esti" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/compare_lstm_conv_udacity.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="compare_lstm_udacity_5_30" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="no_picture_esti" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/compare_lstm_udacity_5_30.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run_carla" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="no_picture_esti" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run_carla.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.run_carla" />
+        <item itemvalue="Python.compare_lstm_udacity_5_30" />
+        <item itemvalue="Python.compare_lstm_conv_udacity" />
+        <item itemvalue="Python.compare_lstm_comma_5_30" />
+        <item itemvalue="Python.compare_lstm_conv_comma" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="15375dcf-d4f6-4891-9f11-8acb8937f903" name="Default Changelist" comment="" />
+      <created>1590394875972</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590394875972</updated>
+      <workItem from="1590394880912" duration="18911000" />
+      <workItem from="1590448605861" duration="6226000" />
+      <workItem from="1590834823386" duration="14870000" />
+      <workItem from="1590882473267" duration="5449000" />
+      <workItem from="1591085060544" duration="2482000" />
+      <workItem from="1591339758320" duration="1584000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="49522000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="2062" height="1126" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17265469" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32998997" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39518556" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info active="true" anchor="right" id="SciView" order="3" visible="true" weight="0.37874252" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/compare_lstm_conv_comma.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/compare_lstm_conv_comma.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/compare_lstm_comma_5_30.py</url>
+          <line>82</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/compare_lstm_comma_5_30.py</url>
+          <line>72</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/no_picture_esti$run_lstm_conv_udacity_seg_fla.coverage" NAME="run_lstm_conv_udacity_seg_fla Coverage Results" MODIFIED="1590416778970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/no_picture_esti$run_lstm_conv_comma_inception_transfer.coverage" NAME="run_lstm_conv_comma_inception_transfer Coverage Results" MODIFIED="1590415807044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/no_picture_esti$run_lstm_conv_comma_nvnet.coverage" NAME="run_lstm_conv_comma_nvnet Coverage Results" MODIFIED="1590403346590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/no_picture_esti$run_lstm_conv_udacity_nvnet.coverage" NAME="run_lstm_conv_udacity_nvnet Coverage Results" MODIFIED="1590417621198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/no_picture_esti$compare_lstm_conv_comma.coverage" NAME="compare_lstm_conv_comma Coverage Results" MODIFIED="1591085875635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/no_picture_esti$run_carla.coverage" NAME="run_carla Coverage Results" MODIFIED="1591340135575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/no_picture_esti$run_lstm_conv_udacity_vgg_transfer.coverage" NAME="run_lstm_conv_udacity_vgg_transfer Coverage Results" MODIFIED="1590417820937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/no_picture_esti$run_lstm_conv_comma_vgg_transfer.coverage" NAME="run_lstm_conv_comma_vgg_transfer Coverage Results" MODIFIED="1590415455205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/no_picture_esti$udacity_run_lstm_predict_5_30.coverage" NAME="udacity_run_lstm_predict_5_30 Coverage Results" MODIFIED="1590854574398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/no_picture_esti$compare_lstm_conv_udacity.coverage" NAME="compare_lstm_conv_udacity Coverage Results" MODIFIED="1591086672226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/no_picture_esti$run_comma.coverage" NAME="run_comma Coverage Results" MODIFIED="1590839556263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/no_picture_esti$compare_lstm_comma_5_30.coverage" NAME="compare_lstm_comma_5_30 Coverage Results" MODIFIED="1591086123254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/no_picture_esti$comma_run_lstm_predict.coverage" NAME="comma_run_lstm_predict Coverage Results" MODIFIED="1590843936065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/no_picture_esti$run_lstm_conv_comma_seg_fla_pw.coverage" NAME="run_lstm_conv_comma_seg_fla_pw Coverage Results" MODIFIED="1590856941178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/no_picture_esti$compare_lstm_udacity_5_30.coverage" NAME="compare_lstm_udacity_5_30 Coverage Results" MODIFIED="1591086931225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/no_picture_esti$run_lstm_conv_udacity.coverage" NAME="run_lstm_conv_udacity Coverage Results" MODIFIED="1590417070458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/no_picture_esti$run_lstm_conv_comma.coverage" NAME="run_lstm_conv_comma Coverage Results" MODIFIED="1590836700685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/no_picture_esti$comma_run_lstm_predict_5_30.coverage" NAME="comma_run_lstm_predict_5_30 Coverage Results" MODIFIED="1590883200991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/no_picture_esti$run_lstm_conv_udacity_inception_transfer.coverage" NAME="run_lstm_conv_udacity_inception_transfer Coverage Results" MODIFIED="1590418063376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/prediction_comma_vgg_transfer_5_19.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prediction_ud_inception_transfer_5_19.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comma_label_ds.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/co_vgg_kivi_test.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comma_run_lstm_predict.py" />
+    <entry file="file://$PROJECT_DIR$/run_lstm_conv_comma.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="20" selection-start-line="20" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/udacity_run_lstm_predict_5_30.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="17" column="67" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prediction_comma_nvnet_5_19.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_lstm_conv_udacity_seg_fla.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="22" column="11" selection-start-line="22" selection-end-line="22" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_lstm_conv_comma_nvnet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_lstm_conv_comma_vgg_transfer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_lstm_conv_udacity_inception_transfer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="24" column="52" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_lstm_conv_udacity_vgg_transfer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1919">
+          <caret line="112" column="43" selection-start-line="112" selection-start-column="43" selection-end-line="112" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compare_lstm_udacity_5_30.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="70" column="29" selection-start-line="70" selection-start-column="29" selection-end-line="70" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compare_lstm_conv_udacity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_lstm_conv_udacity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1254">
+          <caret line="77" column="42" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_lstm_conv_comma_inception_transfer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="24" column="46" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compare_lstm_comma_5_30.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compare_lstm_conv_comma.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="55" column="36" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comma_run_lstm_predict_5_30.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="20" column="45" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comma_run_lstm_predict_seg_pw.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_lstm_conv_udacity_nvnet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_lstm_conv_comma_seg_fla_pw.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1881">
+          <caret line="110" column="43" selection-start-line="110" selection-start-column="43" selection-end-line="110" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_comma.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_carla.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="94" column="64" lean-forward="true" selection-start-line="94" selection-start-column="63" selection-end-line="94" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
